@@ -5,7 +5,7 @@ ruby '2.2.0'
 # Gems required in all environments
 gem 'rails', '4.2.0'
 
-gem 'puma'
+gem 'puma', '>= 5.6.9'
 gem 'puma_auto_tune', github: 'schneems/puma_auto_tune'
 gem 'sprockets_better_errors'
 gem 'skylight'
